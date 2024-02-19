@@ -1,0 +1,3 @@
+identifier = jei_menu
+title = Recipes
+allowesc = true

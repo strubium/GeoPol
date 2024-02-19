@@ -1,0 +1,474 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = main
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = -7
+  action = movebutton
+  y = 132
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 21
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/mhover.png
+  backgroundnormal = resources/menu/m.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttondescription
+  description = Multiplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = 102
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  height = 13
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/optionshover.png
+  backgroundnormal = resources/menu/options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 25
+  action = movebutton
+  y = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/quithover.png
+  backgroundnormal = resources/menu/quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -45
+  action = movebutton
+  y = -87
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -2
+  action = movebutton
+  y = -101
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 80
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/singleplayerhover.png
+  backgroundnormal = resources/menu/singleplayernon.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 110
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/modshover.png
+  backgroundnormal = resources/menu/mods.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = bcac9ea4-4a67-4edf-b2b6-fd739c278b781686340500243
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 157
+  action = deep_customization_element:title_screen_branding
+  actionid = 95ada7d4-cc63-4ec0-9257-2a291806c7041686340500258
+  y = 201
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = cf003488-186f-4aa4-8d68-c5c3ba9de5c31686340500258
+  y = 233
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 8c431227-f48a-4bb8-b5be-53fbbee9b9861686340500259
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 25616427-c60d-488e-b26c-4d38c3d31ca11686340500259
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #ffff00
+  hidden = true
+  x = 76
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 7dc75568-f028-438d-ad6e-baa1992186dd1686340500259
+  y = -74
+  splash_file_path = resources/menu/GeoPol_Splash.txt
+  height = 30
+}
+
+customization {
+  path = resources/menu/background.png
+  orientation = top-centered
+  x = -209
+  width = 178
+  actionid = 7b819015-3cf8-490d-818e-b8df598a00101686491930107
+  action = addtexture
+  y = -18
+  height = 285
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver;51.81.168.108:25613%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/joinhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 51
+  width = 140
+  action = addbutton
+  actionid = b0ed1645-3d71-4852-84cd-4ec33fee11611686491858652
+  y = 79
+  backgroundnormal = resources/menu/join.png
+  height = 21
+}
+
+customization {
+  path = resources/menu/transparentlogo.png
+  orientation = top-centered
+  x = -157
+  width = 76
+  actionid = 5222e954-a3db-4fc2-b336-8fa02bd6cec51686341116578
+  action = addtexture
+  y = 3
+  height = 76
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiWorldSelection%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/singleplayerhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 52
+  width = 108
+  action = addbutton
+  actionid = 491f2892-0c1e-4619-a59f-61a7b54930571686492306306
+  y = 106
+  backgroundnormal = resources/menu/singleplayer.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiMultiplayer%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/mhover.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Multiplayer
+  x = 165
+  width = 25
+  action = addbutton
+  actionid = f31fa76f-83db-45ae-8efb-a187de113baf1686492707314
+  y = 106
+  backgroundnormal = resources/menu/m.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraftforge.fml.client.GuiModList%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/modshover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 59
+  width = 60
+  action = addbutton
+  actionid = 2ee71fa8-6bcd-455e-8f89-57a55dd387261686493297802
+  y = 133
+  backgroundnormal = resources/menu/mods.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.geopolmc.org%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/discordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 126
+  width = 60
+  action = addbutton
+  actionid = 91b7412b-b186-4b47-8245-7035b79c1bdd1686493450612
+  y = 133
+  backgroundnormal = resources/menu/discord.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://ko-fi.com/geopolmc%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/donatehover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 59
+  width = 60
+  action = addbutton
+  actionid = 6c00cebb-8d7d-4d79-9627-8369b727554f1686493551663
+  y = 157
+  backgroundnormal = resources/menu/donate.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://docs.geopolmc.org%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/docshover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 126
+  width = 60
+  action = addbutton
+  actionid = 293b9bda-4b70-4ea0-a94d-f454ebd79c131686493688753
+  y = 157
+  backgroundnormal = resources/menu/docs.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiOptions%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/optionshover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 59
+  width = 60
+  action = addbutton
+  actionid = e946dab7-dd2b-46a5-bde7-8210de5fb33c1686493812860
+  y = 180
+  backgroundnormal = resources/menu/options.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = resources/menu/quithover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 126
+  width = 60
+  action = addbutton
+  actionid = fabd0aca-4566-4bd9-8820-1592bf953b5f1686493817160
+  y = 180
+  backgroundnormal = resources/menu/quit.png
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = GeoPol V5 (1.12.2)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 303
+  width = 176
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4cf11441-7eba-42b3-b3a4-59384b1a301d1686494152620
+  y = 3
+  alignment = right
+  height = 74
+}
+

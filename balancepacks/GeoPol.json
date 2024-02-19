@@ -1,0 +1,589 @@
+{
+  "packName": "default",
+  "version": "1.0",
+  "packManagerVersion": "1.2",
+  "globalParameters": {
+    "damageMultiplier": 1.0,
+    "recoilMultiplier": 1.0,
+    "headshotMultiplier": 2.0,
+    "hipFireSpread": 7.5
+  },
+  "gunConfigurations": [
+    {
+      "name": "m82_barrett",
+      "enabled": true,
+      "damage": 22.0,
+      "recoil": 40.0,
+      "firerate": 0.15,
+      "inaccuracy": 0.5
+    },
+{
+      "name": "svd_dragunov",
+      "enabled": true,
+      "damage": 12.5,
+      "recoil": 15.0,
+      "firerate": 0.25,
+      "inaccuracy": 0.5
+    },
+{
+      "name": "vss_vintorez",
+      "enabled": true,
+      "damage": 8.2,
+      "recoil": 10.0,
+      "firerate": 0.50,
+      "inaccuracy": 3.0,
+      "firemodeSingle": true,
+      "firemodeBurst": 0.1,
+      "firemodeAuto": false
+    },
+{
+      "name": "makarov_pm",
+      "enabled": true,
+      "damage": 5.4,
+      "recoil": 2.0,
+      "firerate": 0.4,
+      "inaccuracy": 0.0
+    },
+{
+      "name": "aps",
+      "enabled": true,
+      "damage": 5.2,
+      "recoil": 4.0,
+      "firerate": 0.35,
+      "inaccuracy": 3.0
+    },
+{
+      "name": "glock_18c",
+      "enabled": true,
+      "damage": 4.8,
+      "recoil": 8.5,
+      "firerate": 0.85,
+      "inaccuracy": 6.0,
+      "firemodeSingle": false,
+      "firemodeBurst": 0.1,
+      "firemodeAuto": true
+    },
+{
+      "name": "glock_19",
+      "enabled": true,
+      "damage": 5.2,
+      "recoil": 5.0,
+      "firerate": 0.35,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "m17",
+      "enabled": true,
+      "damage": 5.6,
+      "recoil": 4.4,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "m9a1",
+      "enabled": true,
+      "damage": 4.3,
+      "recoil": 8.0,
+      "firerate": 0.70,
+      "inaccuracy": 5.0,
+      "firemodeSingle": true,
+      "firemodeBurst": 3.0,
+      "firemodeAuto": false
+    },
+{
+      "name": "fiveseven",
+      "enabled": true,
+      "damage": 5.7,
+      "recoil": 3.5,
+      "firerate": 0.35,
+      "inaccuracy": 1.0
+    },
+{
+      "name": "mp443",
+      "enabled": true,
+      "damage": 5.1,
+      "recoil": 4.0,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "p226",
+      "enabled": true,
+      "damage": 5.2,
+      "recoil": 4.0,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "sccy_cpx_2",
+      "enabled": true,
+      "damage": 4.8,
+      "recoil": 4.0,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "vp70",
+      "enabled": true,
+      "damage": 4.7,
+      "recoil": 4.0,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "hk_p12",
+      "enabled": true,
+      "damage": 5.5,
+      "recoil": 4.0,
+      "firerate": 0.45,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "desert_eagle",
+      "enabled": true,
+      "damage": 10.6,
+      "recoil": 10.0,
+      "firerate": 0.25,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "beowulf_50_cal",
+      "enabled": true,
+      "damage": 11.3,
+      "recoil": 10.0,
+      "firerate": 0.25,
+      "inaccuracy": 1.0
+    },
+{
+      "name": "ar10_super_sass",
+      "enabled": true,
+      "damage": 12.2,
+      "recoil": 8.0,
+      "firerate": 0.65,
+      "inaccuracy": 1.0
+    },
+{
+      "name": "fnfal",
+      "enabled": true,
+      "damage": 11.3,
+      "recoil": 8.0,
+      "firerate": 0.65,
+      "inaccuracy": 1.0,
+      "firemodeSingle": true,
+      "firemodeBurst": 0.1,
+      "firemodeAuto": false
+    },
+{
+      "name": "m110_sass",
+      "enabled": true,
+      "damage": 12.2,
+      "recoil": 8.0,
+      "firerate": 0.65,
+      "inaccuracy": 1.0
+    },
+{
+      "name": "mk14_ebr",
+      "enabled": true,
+      "damage": 9.6,
+      "recoil": 6.0,
+      "firerate": 0.60,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "g3",
+      "enabled": true,
+      "damage": 9.6,
+      "recoil": 7.0,
+      "firerate": 0.55,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "zbroyar_z10",
+      "enabled": true,
+      "damage": 12.2,
+      "recoil": 8.0,
+      "firerate": 0.65,
+      "inaccuracy": 11.0
+    },
+{
+      "name": "m1014",
+      "enabled": true,
+      "damage": 5.2,
+      "recoil": 16.0,
+      "firerate": 0.25,
+      "inaccuracy": 12.0
+    },
+{
+      "name": "supernova",
+      "enabled": true,
+      "damage": 3.0,
+      "recoil": 12.0,
+      "firerate": 0.4,
+      "inaccuracy": 0.0
+    },
+{
+      "name": "origin12",
+      "enabled": true,
+      "damage": 4.8,
+      "recoil": 12.0,
+      "firerate": 0.3,
+      "inaccuracy": 12.0
+    },
+{
+      "name": "fmg9",
+      "enabled": true,
+      "damage": 4.5,
+      "recoil": 2.9,
+      "firerate": 0.8,
+      "inaccuracy": 4.0
+    },
+{
+      "name": "kriss_vector",
+      "enabled": true,
+      "damage": 4.5,
+      "recoil": 2.0,
+      "firerate": 1.0,
+      "inaccuracy": 4.0
+    },
+{
+      "name": "mac10",
+      "enabled": true,
+      "damage": 4.2,
+      "recoil": 5.5,
+      "firerate": 1.0,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "mp5a5",
+      "enabled": true,
+      "damage": 4.6,
+      "recoil": 5.0,
+      "firerate": 0.75,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "mp7",
+      "enabled": true,
+      "damage": 4.3,
+      "recoil": 3.5,
+      "firerate": 0.87,
+      "inaccuracy": 3.5
+    },
+{
+      "name": "sig_mpx",
+      "enabled": true,
+      "damage": 4.5,
+      "recoil": 4.2,
+      "firerate": 0.85,
+      "inaccuracy": 1.0
+    },
+{
+      "name": "p90",
+      "enabled": true,
+      "damage": 4.2,
+      "recoil": 2.8,
+      "firerate": 0.85,
+      "inaccuracy": 4.0
+    },
+{
+      "name": "scorpion_evo3_a1",
+      "enabled": true,
+      "damage": 4.2,
+      "recoil": 5.8,
+      "firerate": 1.0,
+      "inaccuracy": 4.0
+    },
+{
+      "name": "ump_45",
+      "enabled": true,
+      "damage": 5.3,
+      "recoil": 3.8,
+      "firerate": 0.5,
+      "inaccuracy": 3.5,
+      "firemodeSingle": true,
+      "firemodeBurst": 2.0,
+      "firemodeAuto": true
+    },
+{
+      "name": "uzi",
+      "enabled": true,
+      "damage": 4.4,
+      "recoil": 4.5,
+      "firerate": 0.65,
+      "inaccuracy": 3.8
+    },
+{
+      "name": "acr",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.3,
+      "firerate": 0.65,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "ak101",
+      "enabled": true,
+      "damage": 6.8,
+      "recoil": 4.5,
+      "firerate": 0.6,
+      "inaccuracy": 3.0
+    },
+{
+      "name": "ar15",
+      "enabled": true,
+      "damage": 7.2,
+      "recoil": 5.6,
+      "firerate": 0.8,
+      "inaccuracy": 1.5
+    },
+{
+      "name": "arx160",
+      "enabled": true,
+      "damage": 6.6,
+      "recoil": 4.2,
+      "firerate": 0.7,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "cz805_bren",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.0,
+      "firerate": 0.66,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "famas_f1",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 5.6,
+      "firerate": 0.80,
+      "inaccuracy": 2.0,
+      "firemodeSingle": false,
+      "firemodeBurst": 3.0,
+      "firemodeAuto": false
+    },
+{
+      "name": "g36c",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.3,
+      "firerate": 0.75,
+      "inaccuracy": 3.0
+    },
+{
+      "name": "k2c1",
+      "enabled": true,
+      "damage": 6.6,
+      "recoil": 4.8,
+      "firerate": 0.75,
+      "inaccuracy": 3.0
+    },
+{
+      "name": "m16a1",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.5,
+      "firerate": 0.7,
+      "inaccuracy": 3.8
+    },
+{
+      "name": "m16a4",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.0,
+      "firerate": 0.8,
+      "inaccuracy": 2.9
+    },
+{
+      "name": "m38_dmr",
+      "enabled": true,
+      "damage": 6.3,
+      "recoil": 3.5,
+      "firerate": 0.7,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "m4a1",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 4.5,
+      "firerate": 0.7,
+      "inaccuracy": 3.8
+    },
+{
+      "name": "scar_l",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 3.5,
+      "firerate": 0.6,
+      "inaccuracy": 2.0
+    },
+{
+      "name": "sig556",
+      "enabled": true,
+      "damage": 6.5,
+      "recoil": 5.2,
+      "firerate": 0.8,
+      "inaccuracy": 2.0,
+      "firemodeSingle": true,
+      "firemodeBurst": 3.0,
+      "firemodeAuto": false
+    },
+{
+      "name": "sig_mcx",
+      "enabled": true,
+      "damage": 6.2,
+      "recoil": 4.8,
+      "firerate": 0.75,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "type20",
+      "enabled": true,
+      "damage": 6.3,
+      "recoil": 3.2,
+      "firerate": 0.65,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "ak12_kal",
+      "enabled": true,
+      "damage": 6.3,
+      "recoil": 2.8,
+      "firerate": 0.6,
+      "inaccuracy": 2.8
+    },
+{
+      "name": "ak74",
+      "enabled": true,
+      "damage": 6.1,
+      "recoil": 3.2,
+      "firerate": 0.6,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "aac_honey_badger",
+      "enabled": true,
+      "damage": 5.8,
+      "recoil": 3.5,
+      "firerate": 0.8,
+      "inaccuracy": 3.5
+    },
+{
+      "name": "g11",
+      "enabled": true,
+      "damage": 5.7,
+      "recoil": 2.5,
+      "firerate": 0.9,
+      "inaccuracy": 1.5,
+      "firemodeSingle": false,
+      "firemodeBurst": 3.0,
+      "firemodeAuto": false
+    },
+{
+      "name": "ngsw_r",
+      "enabled": true,
+      "damage": 6.2,
+      "recoil": 4.0,
+      "firerate": 0.75,
+      "inaccuracy": 3.5
+    },
+{
+      "name": "kbp_9a91",
+      "enabled": true,
+      "damage": 6.25,
+      "recoil": 3.2,
+      "firerate": 0.6,
+      "inaccuracy": 2.5
+    },
+{
+      "name": "scar_h_cqc",
+      "enabled": true,
+      "damage": 6.7,
+      "recoil": 6.2,
+      "firerate": 0.45,
+      "inaccuracy": 3.5
+    },
+{
+      "name": "malyuk",
+      "enabled": true,
+      "damage": 6.0,
+      "recoil": 5.8,
+      "firerate": 0.66,
+      "inaccuracy": 3.5
+    },
+{
+      "name": "ak15",
+      "enabled": true,
+      "damage": 7.0,
+      "recoil": 6.2,
+      "firerate": 0.45,
+      "inaccuracy": 4.0
+    },
+{
+      "name": "ak47",
+      "enabled": true,
+      "damage": 7.0,
+      "recoil": 6.8,
+      "firerate": 0.45,
+      "inaccuracy": 3.8
+    }
+  ],
+  "categoryConfigurations": [
+    {
+      "group": "SIDEARM",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 0.88
+    },
+    {
+      "group": "HEAVY",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.0
+    },
+    {
+      "group": "NONE",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.0
+    },
+    {
+      "group": "RIFLES",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.08
+    },
+    {
+      "group": "LONG_RANGE_RIFLES",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.18
+    },
+    {
+      "group": "SHOTGUN",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.13
+    },
+    {
+      "group": "SMG",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 0.83
+    },
+    {
+      "group": "REVOLVER",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.0
+    },
+    {
+      "group": "DMR",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.15
+    }
+  ]
+}
